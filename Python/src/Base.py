@@ -5,7 +5,7 @@ import json
 class Base(object):
 
     def __init__(self):
-        self.host = 'http://devapi.globelabs.com.ph'
+        self.host = 'https://devapi.globelabs.com.ph'
         self.version = 'v1'
 
     """ For dynamic setting and getting of parameters """
